@@ -1,5 +1,6 @@
 import requests
 class speed_limit:
+    #API key can be generate from https://developer.here.com/
     def __init__(self,api_key):
         self.key = api_key
         self.avail = []
